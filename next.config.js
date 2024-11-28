@@ -7,7 +7,7 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const config = {
   images: {
-    domains: ['wordpress.deeplearning.ai'],
+    domains: ['wordpress.deeplearning.ai', 'home-wordpress.deeplearning.ai'],
   },
 };
 
